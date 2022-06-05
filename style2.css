@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height:100vh;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.ic-header {
+    background-image: image;
+    height: 200px;
+    flex-shrink: 1;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('bandeau.jpg');
+    background-size: cover;
+}
+
+.ic-header .ic-title {
+    
+}
+
+.ic-header .ic-nav {
+}
+
+.ic-header .ic-nav a {
+    color: black;
+}
+
+.ic-header .ic-nav a:hover {
+    text-decoration: underline;
+}
+
+.ic-body {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Utiliser le flex et centrer horizontalement les element. */
+}
+
+.ic-body .ic-section {
+    font-family: 'Lora';
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ic-body .ic-section .ic-title{
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.ic-body .ic-section .ic-title h2{
+    font-family: 'Arial';
+    font-weight: 600;
+}
+
+.ic-body .ic-section .icontent{
+    font-family: 'Arial';
+    font-weight: 600;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ic-body .ic-section .idescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    width: 600px;
+    height: 140px;
+    background-color: #b7b7b7ff;
+    border-radius: 5px;
+}
+
+.ic-body .ic-section.reverse .idescription{
+    padding-left: 150px;
+}
+
+.ic-body .ic-section .iavatar{
+    height: 200px;
+    width: 200px;
+    left: -100px;
+    position: relative;
+}
+
+.ic-body .ic-section .iavatar1{
+    height: 100px;
+    width: 200px;
+    left: 70px;
+    bottom: 20px;
+    position: relative;
+}
+
+.ic-body .ic-section.reverse .iavatar{
+    left: 100px;
+}
+
+.ic-body .ic-section .iavatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.ic-body .ic-section.reverse .iavatar img{
+    border-radius: 5px;
+    border: black;
+}
+
+.btn-group {
+    bottom: 15px;
+}
+
+.ic-footer {
+    background-color: #34495eff;
+    height: 100px;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ic-footer .ic-contact {
+    color: white;
+    display: flex;
+}
+
+.ic-footer .ic-contact p {
+    display: flex;
+    align-items: center;
+    margin-right: 30px; 
+}
