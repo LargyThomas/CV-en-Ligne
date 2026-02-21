@@ -6,7 +6,7 @@ Un site web personnel présentant mon CV en ligne, réalisé durant mon stage de
 
 ## 📄 Description
 
-Site vitrine personnel permettant de présenter mon parcours, mes expériences, mes passions et de me contacter directement. Le projet a évolué depuis sa création avec un redesign complet pour un rendu plus professionnel.
+Site vitrine personnel permettant de présenter mon parcours, mes expériences, mes passions et de me contacter directement. Le projet a évolué depuis sa création pour un rendu plus professionnel.
 
 ---
 
