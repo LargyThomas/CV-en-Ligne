@@ -29,7 +29,6 @@ Site vitrine personnel permettant de présenter mon parcours, mes expériences, 
 ├── mes_activités_sportives.html  ← Page activités sportives
 ├── mes_passions.html             ← Page passions
 ├── mes_passe-temps.html          ← Page passe-temps
-└── Image/                        ← Ressources images
 ```
 
 ---
