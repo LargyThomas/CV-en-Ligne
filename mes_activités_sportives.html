@@ -1,106 +1,92 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Mon CV en ligne</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Activités Sportives — Thomas Largy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style_pages.css">
+</head>
+<body>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="style3.css">
-  </head>
-  <body>
+  <nav>
+    <a href="index.html" class="nav-logo">T.L</a>
+    <ul class="nav-links">
+      <li><a href="mes_passions.html">Passions</a></li>
+      <li><a href="mes_passe-temps.html">Passe-temps</a></li>
+      <li><a href="index.html" class="nav-back"><i class="fas fa-arrow-left"></i> Retour</a></li>
+    </ul>
+  </nav>
 
-    <div class="ic-header">
-      <div class="ic-title">
-        <h1>Mon CV en Ligne</h1>
-      </div>
-      <div class="ic-nav">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#Football">Football</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#courseApied">Course à Pied</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Natation">Natation</a>
-          </li>
-        </ul>
-      </div>
+  <div class="page-hero">
+    <div class="page-hero-bg"></div>
+    <div class="page-hero-grid"></div>
+    <div class="page-hero-content">
+      <div class="page-tag">Hobbies</div>
+      <h1 class="page-title">Activités <span>Sportives</span></h1>
     </div>
+  </div>
 
-    <div class="ic-body">
+  <div class="page-content">
+    <p class="section-label">Sur le terrain</p>
+    <h2 class="section-title">Mes sports</h2>
+    <div class="divider"></div>
 
-      <div id="Football" class="ic-section reverse">
-        <div class="ic-title">
-          <blockquote><h2>Football</h2></blockquote>
+    <div class="cards-grid">
+
+      <div class="item-card">
+        <span class="item-icon">⚽</span>
+        <div class="item-title">Football</div>
+        <div class="item-date">2018 — Aujourd'hui · FC Buxy</div>
+        <div class="item-desc">
+          Le football est ma passion principale depuis 2018. 3 heures d'entraînement par semaine plus les matchs du samedi.
+          <br><br>
+          <strong style="color: var(--accent);">Palmarès :</strong><br>
+          • 2019 — Tournoi ES Pouilloux : 2ème après une séance de pénalties malchanceuse<br>
+          • 2021 — Finaliste Coupe de Saône-et-Loire U15, défaite 2-0<br>
+          • 2024 — Finaliste Coupe de Saône-et-Loire U18, <strong>victoire 0-0 (tab: 4-2)</strong>
         </div>
-        <div class="icontent">
-          <div class="iavatar">
-            <img src="Image/LogoBuxy.png" alt="">
-          </div>
-          <div class="idescription1">
-            <p>2018 à aujourd'hui : Football Club de Buxy<br><br></p>
-            <p>2019 : Participation tournoi de l'ES Pouilloux :<br>2ème après une séance de pénalties malchanceuse.</p>
-            <p>2021 : Finale de la Coupe de Saône et Loire U15, défaite 2-0</p>
-            <p>2024 : Finale de la Coupe de Saône et Loire U18, victoire 0-0 (tab: 4-2)</p><br>
-            <p>3 heures d'entraînements par semaines plus les matchs le samedis.</p>
-          </div>
-        </div>
+        <span class="item-highlight">⭐ Finaliste U18 2024</span>
       </div>
 
-      <div id="courseApied" class="ic-section reverse">
-        <div class="ic-title">
-          <blockquote><h2>Course à Pied</h2></blockquote>
+      <div class="item-card">
+        <span class="item-icon">🏃</span>
+        <div class="item-title">Course à Pied</div>
+        <div class="item-date">Pratique régulière</div>
+        <div class="item-desc">
+          Je pratique la course à pied entre mes entraînements de football pour entretenir mon endurance et me vider la tête. Un bon moyen de rester actif au quotidien.
         </div>
-        <div class="icontent">
-          <div class="iavatar">
-            <img src="Image/Course a pied.jpg" alt="">
-          </div>
-          <div class="idescription1">
-            <p>Je pratique de la course à pied quand je n'ai pas entraînements de football.</p>
-          </div>
-        </div>
+        <span class="item-highlight">Endurance & bien-être</span>
       </div>
 
-      <div id="Natation" class="ic-section reverse">
-        <div class="ic-title">
-          <blockquote><h2>Natation</h2></blockquote>
+      <div class="item-card">
+        <span class="item-icon">🏊</span>
+        <div class="item-title">Natation</div>
+        <div class="item-date">2013 — 2018 · Club Montchanin Natation</div>
+        <div class="item-desc">
+          5 ans de natation en club compétitif. Une discipline qui m'a appris la rigueur et le dépassement de soi.
+          <br><br>
+          <strong style="color: var(--accent);">Palmarès :</strong><br>
+          • 2015 — Pass compétition obtenu<br>
+          • 2016 — <strong>Médaille d'or</strong> individuel crawl<br>
+          • Compétition départementale relais mixte : <strong>3ème à Chalon-sur-Saône</strong>
         </div>
-        <div class="icontent">
-          <div class="iavatar1">
-            <img src="Image/LogoMontchanin.png" alt="">
-          </div>
-          <div class="idescription">
-            <p>2013-2018 : Club Montchanin Natation<br><br></p>
-            <p>2015 : Pass compétition qui me permettera de réaliser des compétitions de natations.<br><br></p>
-            <p>2016 : Médaille d'or individuel crawl.<br><br></p>
-            <p>Participation compétition départemental relais mixte : classé 3ème à Chalon sur Saône.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="btn-group">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-          Hobbies
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <li><a class="dropdown-item" href="index.html">Accueil</a></li>
-          <li><a class="dropdown-item" href="mes_passions.html">Mes passions</a></li>
-          <li><a class="dropdown-item" href="mes_passe-temps.html">Mes passe-temps</a></li>
-        </ul>
+        <span class="item-highlight">🥇 Médaille d'or crawl 2016</span>
       </div>
 
     </div>
+  </div>
 
-    <div class="ic-footer">
-      <div class="ic-contact">
-        <p>Si vous avez été intéréssé par mon CV n'hésiter pas à me contacter !</p>
-        <button type="button" class="btn btn-warning" onclick="window.location.href='formulaire_contact.html';">Contactez-moi !</button>
-      </div>
+  <footer>
+    <div class="footer-links">
+      <a href="index.html" class="footer-link">Accueil</a>
+      <a href="mes_passions.html" class="footer-link">Passions</a>
+      <a href="mes_passe-temps.html" class="footer-link">Passe-temps</a>
     </div>
+    <a href="formulaire_contact.html" class="cta-btn">Contactez-moi</a>
+    <p class="footer-copy">© 2025 Thomas Largy</p>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>

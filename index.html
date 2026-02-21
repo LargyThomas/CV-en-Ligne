@@ -1,104 +1,150 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Mon CV en ligne</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thomas Largy — CV en ligne</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style_main.css">
+</head>
+<body>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="style2.css">
-  </head>
-  <body>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">T.L</div>
+    <ul class="nav-links">
+      <li><a href="#formation">Formation</a></li>
+      <li><a href="#experience">Expérience</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <div class="ic-header">
-      <div class="ic-title">
-        <h1>Mon CV en Ligne</h1>
-      </div>
-      <div class="ic-nav">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#aPropos">A Propos de Moi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#formation">Formation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Expérience Professionnel</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="ic-body">
-
-      <div id="aPropos" class="ic-section">
-        <div class="ic-title">
-          <blockquote><h2>A Propos de Moi</h2></blockquote>
-        </div>
-        <div class="icontent">
-          <div class="idescription">
-            <p>LARGY Thomas</p>
-            <p><i class="fas fa-phone-square-alt"></i> 07-85-72-40-79</p>
-            <p><i class="fas fa-envelope"></i> largythomas@gmail.com</p>
-          </div>
-          <div class="iavatar">
-            <img src="Image/IMG_1832.JPG" alt="">
-          </div>
-        </div>
-      </div>
-
-      <div id="formation" class="ic-section reverse">
-        <div class="ic-title">
-          <blockquote><h2>Formation</h2></blockquote>
-        </div>
-        <div class="icontent">
-          <div class="iavatar">
-            <img src="Image/boostrap.png" alt="">
-          </div>
-          <div class="idescription">
-            <p>J'ai appris l'utilisation de <strong>Bootstrap</strong> depuis leur site internet.</p>
-            <p>Gestion de projet et analyse technique</p>
-          </div>
-        </div>
-      </div>
-
-      <div id="experience" class="ic-section reverse">
-        <div class="ic-title">
-          <blockquote><h2>Expérience Professionnel</h2></blockquote>
-        </div>
-        <div class="icontent">
-          <div class="iavatar1">
-            <img src="Image/netmize.jpg" alt="">
-            <img src="Image/Interstis.PNG" alt="">
-          </div>
-          <div class="idescription">
-            <p>Stage de 4ème chez NETMIZE à Moroges<br>Du 28 Juin au 02 Juillet 2021</p><br>
-            <p>Stage de 3ème chez INTERSTIS au Creusot<br>Du 31 Janvier au 04 Février 2022</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="btn-group">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-          Hobbies
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <li><a class="dropdown-item" href="mes_activités_sportives.html">Mes activités sportives</a></li>
-          <li><a class="dropdown-item" href="mes_passions.html">Mes passions</a></li>
-          <li><a class="dropdown-item" href="mes_passe-temps.html">Mes passe-temps</a></li>
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="ic-footer">
-      <div class="ic-contact">
-        <p>Si vous avez été intéréssé par mon CV n'hésiter pas à me contacter !</p>
-        <button type="button" class="btn btn-warning" onclick="window.location.href='formulaire_contact.html';">Contactez-moi !</button>
+  <!-- HERO -->
+  <section id="hero" style="max-width:100%; padding:0;">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-tag">CV en ligne</div>
+      <h1 class="hero-name">Thomas<br><span>Largy</span></h1>
+      <p class="hero-subtitle">Étudiant en informatique · Recherche alternance</p>
+      <div class="hero-contacts">
+        <a href="tel:0785724079" class="hero-contact-item">
+          <i class="fas fa-phone"></i> 07 85 72 40 79
+        </a>
+        <a href="mailto:largythomas@gmail.com" class="hero-contact-item">
+          <i class="fas fa-envelope"></i> largythomas@gmail.com
+        </a>
+        <a href="#contact" class="hero-contact-item">
+          <i class="fas fa-map-marker-alt"></i> 71510 Châtel-Moron
+        </a>
       </div>
     </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+  <!-- FORMATION -->
+  <section id="formation">
+    <p class="section-label">Parcours</p>
+    <h2 class="section-title">Formation</h2>
+    <div class="divider"></div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">En cours</div>
+        <div class="timeline-title">Bachelor Informatique</div>
+        <div class="timeline-desc">Formation en développement logiciel, gestion de projet et analyse technique.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Auto-formation</div>
+        <div class="timeline-title">Bootstrap & Développement Web</div>
+        <div class="timeline-desc">Apprentissage de Bootstrap via leur documentation officielle. Création de sites responsives et modernes.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPÉRIENCE -->
+  <section id="experience">
+    <p class="section-label">Terrain</p>
+    <h2 class="section-title">Expérience Professionnelle</h2>
+    <div class="divider"></div>
+    <div class="exp-grid">
+      <div class="exp-card">
+        <div class="exp-company">NETMIZE</div>
+        <div class="exp-date">28 Juin — 02 Juillet 2021 · Moroges</div>
+        <div class="exp-desc">Stage de découverte en entreprise (4ème). Découverte du milieu professionnel informatique et des métiers du numérique.</div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-company">INTERSTIS</div>
+        <div class="exp-date">31 Janvier — 04 Février 2022 · Le Creusot</div>
+        <div class="exp-desc">Stage de 3ème. Immersion dans une entreprise tech, découverte des outils collaboratifs et de la gestion de projets.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies">
+    <p class="section-label">En dehors du code</p>
+    <h2 class="section-title">Passions & Loisirs</h2>
+    <div class="divider"></div>
+    <p class="hobbies-intro">La nature, le sport et la créativité occupent une grande place dans ma vie. Ces passions m'ont appris la patience, la persévérance et l'observation — des qualités que je retrouve dans mon travail.</p>
+    <div class="hobbies-grid">
+      <a href="mes_activités_sportives.html" class="hobby-card">
+        <span class="hobby-icon">⚽</span>
+        <div class="hobby-name">Football</div>
+        <div class="hobby-desc">FC Buxy depuis 2018. Finaliste Coupe de Saône-et-Loire U18 2024, victoire aux tirs au but.</div>
+      </a>
+      <a href="mes_activités_sportives.html" class="hobby-card">
+        <span class="hobby-icon">🏃</span>
+        <div class="hobby-name">Course à pied</div>
+        <div class="hobby-desc">Pratique régulière entre les entraînements pour entretenir mon endurance.</div>
+      </a>
+      <a href="mes_activités_sportives.html" class="hobby-card">
+        <span class="hobby-icon">🏊</span>
+        <div class="hobby-name">Natation</div>
+        <div class="hobby-desc">Club Montchanin 2013–2018. Médaille d'or individuel crawl, 3ème en relais départemental.</div>
+      </a>
+      <a href="mes_passions.html" class="hobby-card">
+        <span class="hobby-icon">📷</span>
+        <div class="hobby-name">Photographie</div>
+        <div class="hobby-desc">Passionné de photo animalière, principalement les oiseaux. Objectif futur : la faune de montagne.</div>
+      </a>
+      <a href="mes_passions.html" class="hobby-card">
+        <span class="hobby-icon">📚</span>
+        <div class="hobby-name">Lecture</div>
+        <div class="hobby-desc">Jules Verne, Erin Hunter (La Guerre des Clans, Les Royaumes de feu). Grand lecteur depuis l'enfance.</div>
+      </a>
+      <a href="mes_passions.html" class="hobby-card">
+        <span class="hobby-icon">✏️</span>
+        <div class="hobby-name">Dessin</div>
+        <div class="hobby-desc">Sessions créatives quand l'inspiration est là. Un moyen de me déconnecter.</div>
+      </a>
+      <a href="mes_passe-temps.html" class="hobby-card">
+        <span class="hobby-icon">🌿</span>
+        <div class="hobby-name">Nature & Chasse</div>
+        <div class="hobby-desc">Passionné depuis l'enfance. Accompagne famille depuis mes 4 ans. Amour du grand air et de la faune.</div>
+      </a>
+      <a href="mes_passe-temps.html" class="hobby-card">
+        <span class="hobby-icon">🎣</span>
+        <div class="hobby-name">Pêche & Bivouac</div>
+        <div class="hobby-desc">Pêche à la carpe, randonnées et bivouac. Découverte du plein air pendant le confinement 2020.</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER / CONTACT -->
+  <footer id="contact">
+    <h2 class="footer-title">Intéressé par mon profil ?</h2>
+    <p class="footer-sub">N'hésitez pas à me contacter pour toute opportunité d'alternance.</p>
+    <a href="formulaire_contact.html" class="cta-btn">Contactez-moi</a>
+    <p class="footer-copy">© 2025 Thomas Largy · 71510 Châtel-Moron</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>

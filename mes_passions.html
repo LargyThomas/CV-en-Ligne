@@ -1,130 +1,86 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Mon CV en ligne</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passions — Thomas Largy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style_pages.css">
+</head>
+<body>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="style3.css">
-  </head>
-  <body>
+  <nav>
+    <a href="index.html" class="nav-logo">T.L</a>
+    <ul class="nav-links">
+      <li><a href="mes_activités_sportives.html">Sports</a></li>
+      <li><a href="mes_passe-temps.html">Passe-temps</a></li>
+      <li><a href="index.html" class="nav-back"><i class="fas fa-arrow-left"></i> Retour</a></li>
+    </ul>
+  </nav>
 
-    <div class="ic-header">
-      <div class="ic-title">
-        <h1>Mon CV en Ligne</h1>
-      </div>
-      <div class="ic-nav">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#Chasse">Chasse</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Peche">Pêche</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Bivouac">Bivouac</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#NatureAnimaux">Nature et Animaux</a>
-          </li>
-        </ul>
-      </div>
+  <div class="page-hero">
+    <div class="page-hero-bg"></div>
+    <div class="page-hero-grid"></div>
+    <div class="page-hero-content">
+      <div class="page-tag">Hobbies</div>
+      <h1 class="page-title">Mes <span>Passions</span></h1>
     </div>
+  </div>
 
-    <div class="ic-body">
+  <div class="page-content">
+    <p class="section-label">Ce qui me passionne</p>
+    <h2 class="section-title">Créativité & Culture</h2>
+    <div class="divider"></div>
 
-      <div id="Chasse" class="ic-section reverse">
-        <div class="ic-title">
-          <blockquote><h2>Chasse</h2></blockquote>
+    <div class="cards-grid">
+
+      <div class="item-card">
+        <span class="item-icon">📷</span>
+        <div class="item-title">Photographie</div>
+        <div class="item-date">Passion animalière</div>
+        <div class="item-desc">
+          Je me suis passionné pour la photographie en découvrant les images fantastiques que l'on pouvait capturer de la nature.
+          <br><br>
+          En ce moment je photographie essentiellement des oiseaux. Mon objectif à long terme : photographier des animaux de la montagne dans leur habitat naturel.
         </div>
-        <div class="icontent">
-          <div class="iavatar">
-            <img src="Image/IMG_0792.JPG" alt="">
-          </div>
-          <div class="idescription1">
-            <p>Je suis passionné de chasse depuis mon plus jeune âge.</p>
-            <p>J'ai accompagné mon père, mon oncle et mon grand-père dès que j'ai pu. A mes 4 ans, je tenais en laisse Aubépine (la chienne de mon grand-père)
-              pour faire les pieds le matin.
-            </p>
-          </div>
-        </div>
+        <span class="item-highlight">🐦 Spécialité : oiseaux</span>
       </div>
 
-      <div id="Peche" class="ic-section reverse">
-        <div class="ic-title">
-          <blockquote><h2>Pêche</h2></blockquote>
+      <div class="item-card">
+        <span class="item-icon">📚</span>
+        <div class="item-title">Lecture</div>
+        <div class="item-date">Depuis l'enfance</div>
+        <div class="item-desc">
+          Grand lecteur depuis mon plus jeune âge. J'ai commencé par les grands classiques : <em>20 000 lieues sous les mers</em>, <em>Voyage au centre de la Terre</em> de Jules Verne...
+          <br><br>
+          Je me suis ensuite lancé dans les univers d'Erin Hunter : <strong>La Guerre des Clans</strong> et <strong>Les Royaumes de Feu</strong> — des sagas riches en aventures et en personnages.
         </div>
-        <div class="icontent">
-          <div class="iavatar">
-            <img src="Image/IMG_1513.JPG" alt="">
-          </div>
-          <div class="idescription1">
-            <p>J'ai pêché pour la première fois grâce à l'oncle de mon père, qui m'avait invité.
-              Pendant cette partie je n'avais pas de matériel adapté donc je pêchais avec un hameçon relié à un fil, lui-même relié à un bâton.
-              L'oncle de mon père avait pêché une carpe, quant à moi je pêchais de la garniture. Depuis ce jour j'ai acquis de l'expérience et du matériel.
-            </p>
-          </div>
-        </div>
+        <span class="item-highlight">📖 Jules Verne · Erin Hunter</span>
       </div>
 
-      <div id="Bivouac" class="ic-section reverse">
-        <div class="ic-title">
-          <blockquote><h2>Bivouac</h2></blockquote>
+      <div class="item-card">
+        <span class="item-icon">✏️</span>
+        <div class="item-title">Dessin</div>
+        <div class="item-date">Créativité & détente</div>
+        <div class="item-desc">
+          Quand l'inspiration est là, je passe quelques heures à dessiner. C'est un moyen de me déconnecter et d'exprimer ma créativité autrement qu'avec du code.
         </div>
-        <div class="icontent">
-          <div class="iavatar">
-            <img src="Image/Tente.jpg" alt="">
-          </div>
-          <div class="idescription1">
-            <p>Je fais des randonnées qui ne durent que quelques heures, je ne prends pas ma tente pour dormir dans les bois, même si c'est mon objectif.
-              Pour l'instant, j'achète tout ce dont j'ai besoin pour compléter mon sac de randonnée. J'ai découvert cette passion pendant le confinement 2020, elle
-              me permet d'être proche de la nature, de découvrir des paysages et de faire de la randonnée.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="NatureAnimaux" class="ic-section reverse">
-        <div class="ic-title">
-          <blockquote><h2>Nature et Animaux</h2></blockquote>
-        </div>
-        <div class="icontent">
-          <div class="iavatar">
-            <img src="Image/IMG_1497.JPG" alt="">
-          </div>
-          <div class="idescription1">
-            <p>J'aime la nature parce qu'elle permet de se détendre et de faire des balades. Les différents paysages formés par
-              les montagnes, les lacs... sont magnifiques.
-            </p>
-            <p>J'aime aussi les animaux, principalement les oiseaux et quelques animaux terrestres. Mes animaux préférés sont :
-              le loup, le guépard, le faucon et la mésange.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="btn-group">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-          Hobbies
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <li><a class="dropdown-item" href="index.html">Accueil</a></li>
-          <li><a class="dropdown-item" href="mes_activités_sportives.html">Mes activités sportives</a></li>
-          <li><a class="dropdown-item" href="mes_passe-temps.html">Mes passe-temps</a></li>
-        </ul>
+        <span class="item-highlight">🎨 Expression créative</span>
       </div>
 
     </div>
+  </div>
 
-    <div class="ic-footer">
-      <div class="ic-contact">
-        <p>Si vous avez été intéréssé par mon CV n'hésiter pas à me contacter !</p>
-        <button type="button" class="btn btn-warning" onclick="window.location.href='formulaire_contact.html';">Contactez-moi !</button>
-      </div>
+  <footer>
+    <div class="footer-links">
+      <a href="index.html" class="footer-link">Accueil</a>
+      <a href="mes_activités_sportives.html" class="footer-link">Activités sportives</a>
+      <a href="mes_passe-temps.html" class="footer-link">Passe-temps</a>
     </div>
+    <a href="formulaire_contact.html" class="cta-btn">Contactez-moi</a>
+    <p class="footer-copy">© 2025 Thomas Largy</p>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
