@@ -359,6 +359,96 @@ section {
   line-height: 1.6;
 }
 
+/* ── PROJETS ── */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px;
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s;
+}
+
+.project-card:hover { border-color: var(--accent); transform: translateY(-4px); color: var(--text); }
+.project-card:hover::before { transform: scaleX(1); }
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-icon { font-size: 1.6rem; }
+
+.project-lang {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.lang-c   { background: rgba(0,89,156,0.2); color: #5b9fd4; border: 1px solid rgba(0,89,156,0.3); }
+.lang-js  { background: rgba(247,223,30,0.1); color: #f7df1e; border: 1px solid rgba(247,223,30,0.2); }
+.lang-py  { background: rgba(55,118,171,0.2); color: #4b9cd3; border: 1px solid rgba(55,118,171,0.3); }
+
+.project-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+}
+
+.project-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.project-tag {
+  font-size: 0.75rem;
+  color: var(--accent);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.project-link {
+  color: var(--muted);
+  font-size: 0.85rem;
+  transition: color 0.3s;
+}
+
+.project-card:hover .project-link { color: var(--accent); }
+
 /* ── FOOTER ── */
 footer {
   background: var(--surface);
