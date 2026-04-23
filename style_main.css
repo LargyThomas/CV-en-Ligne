@@ -378,6 +378,7 @@ section {
 .lang-c   { background: rgba(0,89,156,0.2);   color: #5b9fd4; border: 1px solid rgba(0,89,156,0.3); }
 .lang-js  { background: rgba(247,223,30,0.1); color: #f7df1e; border: 1px solid rgba(247,223,30,0.2); }
 .lang-py  { background: rgba(55,118,171,0.2); color: #4b9cd3; border: 1px solid rgba(55,118,171,0.3); }
+.lang-docker { background: rgba(0,150,200,0.2); color: #006fab; border: 1px solid rgba(0,150,200,0.3); }
 
 .project-name {
   font-family: 'Playfair Display', serif;
